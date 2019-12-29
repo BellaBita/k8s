@@ -1,5 +1,5 @@
 ## Digital Transformation
-- by Abby Kearns, CEO of Cloud Foundary
+- by Abby Kearns, CEO of Cloud Foundary, 2019.07
   - https://www.youtube.com/watch?v=bDGndiwez8U
 - Catepilla vs Whitewater Kayaker
   - Magic, spins a cocoon disappears for a few weeks and emerges later transformed to a butterfly.

@@ -3,9 +3,9 @@
   - https://www.youtube.com/watch?v=bDGndiwez8U
 - Catepillar vs Whitewater Kayaker
   - Magic, spins a cocoon disappears for a few weeks and emerges later transformed to a butterfly.
-  - <img src="./images/image-001.jpg" width="350"><img src="./images/image-002.jpg" width="350">
+    > <img src="./images/image-001.jpg" width="350"><img src="./images/image-002.jpg" width="350">
   - Skilled & Reactive to the waters around her constantly shifting changing.
-  - <img src="./images/image-003.jpg" width="350"><img src="./images/image-004.jpg" width="350">
+    > <img src="./images/image-003.jpg" width="350"><img src="./images/image-004.jpg" width="350">  
   > Everything is accelating.  
   > Are you able to be responsive to customer needs, the changes that are happening in your markets, industry ?  
   > Are you able to innovate and iterate at the pace you want to?  

@@ -26,21 +26,21 @@
 apiVersion: v1
 clusters:
 - cluster:
-    certificate-authority: /nonexistent/.kube/certs/ca.crt
-    server: https://localhost/k8s/clusters/c-r8nn4
+    certificate-authority: c:\temp\kube\certs\ca-rancher.crt
+    server: https://kubernetes.docker.internal/k8s/clusters/c-r8nn4
   name: Default
 contexts:
 - context:
     cluster: Default
     user: Default
   name: Default
+current-context: Default
 kind: Config
 preferences: {}
 users:
 - name: Default
   user:
-    token: kubectl-shell-user-4g6r7:b9g94wbw9lszqwm9pwpkknvv6nplwd2h5hvjwv4r8jznrmlqtpqtjw
-current-context: Default
+    token: token-x6x8v:sjdf7wxlbnzvsnbk9zxvdqlb7jntpn5r2xf4xfvh58lszw8kfzl668
 ```
 
 - CA Data Sample

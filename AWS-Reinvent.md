@@ -11,7 +11,7 @@
   > Are you able to innovate and iterate at the pace you want to?  
   > It's not that simple real transformation is not about adopting the latest technology, but it's about adapting to a world that's now ordered around technology.
 - Core tenanats of digital transforamation
-  - <img src="./images/image-005.jpg" width="350"><img src="./images/image-006.jpg" width="350">
+  > <img src="./images/image-005.jpg" width="350"><img src="./images/image-006.jpg" width="350">
     
 
 # Keywords

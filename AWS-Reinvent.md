@@ -6,6 +6,12 @@
   - <img src="./images/image-001.jpg" width="300"><img src="./images/image-002.jpg" width="300">
   - Skilled & Reactive to the waters around her constantly shifting changing.
   - <img src="./images/image-003.jpg" width="300"><img src="./images/image-004.jpg" width="300">
+  - Are you able to be responsive to customer needs, the changes that are happening in your markets, industry ? 
+  - Are you able to innovate and iterate at the pace you want to?
+  - Everything is accelating. 
+  - It's not that simple real transformation is not about adopting the latest technology, but it's about adapting to a world that's now ordered around technology.
+- Core tenanats of digital fransforamation
+  - <img src="./images/image-005.jpg" width="300"><img src="./images/image-006.jpg" width="300">
     
 
 # Keywords

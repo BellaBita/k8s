@@ -93,3 +93,36 @@ iEEx4HTSob++FzxFKsXnAZVawS0vIop2byUIHsx3rTZayOfma0prAMG9AcYycwci
 qx0+fCSIt01jVgaOz3E4aDlAr7bM3MjLJXmcQhwMQhTNMw==
 -----END CERTIFICATE-----
 ```
+
+## kubectl config commands
+https://kubernetes.io/ko/docs/reference/kubectl/cheatsheet/
+
+kubectl이 통신하고 설정 정보를 수정하는 쿠버네티스 클러스터를 지정한다. 설정 파일에 대한 자세한 정보는 kubeconfig를 이용한 클러스터 간 인증 문서를 참고한다.
+
+kubectl config view # 병합된 kubeconfig 설정을 표시한다.
+
+### 동시에 여러 kubeconfig 파일을 사용하고 병합된 구성을 확인한다
+KUBECONFIG=~/.kube/config:~/.kube/kubconfig2
+
+kubectl config view
+
+### e2e 사용자의 암호를 확인한다
+kubectl config view -o jsonpath='{.users[?(@.name == "e2e")].user.password}'
+
+kubectl config view -o jsonpath='{.users[].name}'    # 첫 번째 사용자 출력
+kubectl config view -o jsonpath='{.users[*].name}'    # 사용자 리스트 조회
+kubectl config get-contexts                          # 컨텍스트 리스트 출력
+kubectl config current-context              # 현재 컨텍스트 출력
+kubectl config use-context my-cluster-name  # my-cluster-name를 기본 컨텍스트로 설정
+
+### 기본 인증을 지원하는 새로운 클러스터를 kubeconf에 추가한다
+kubectl config set-credentials kubeuser/foo.kubernetes.com --username=kubeuser --password=kubepassword
+
+### 해당 컨텍스트에서 모든 후속 kubectl 커맨드에 대한 네임스페이스를 영구적으로 저장한다
+kubectl config set-context --current --namespace=ggckad-s2
+
+### 특정 사용자와 네임스페이스를 사용하는 컨텍스트 설정
+kubectl config set-context gce --user=cluster-admin --namespace=foo \
+  && kubectl config use-context gce
+
+kubectl config unset users.foo                       # foo 사용자 삭제

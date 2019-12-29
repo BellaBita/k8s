@@ -2,7 +2,7 @@
 
 ## Digital Transformation
 - by Abby Kearns, CEO of Cloud Foundary
-[![Digital Transformation](https://img.youtube.com/vi/bDGndiwez8U/0.jpg)](https://www.youtube.com/watch?v=bDGndiwez8U)
+- [![Digital Transformation](https://img.youtube.com/vi/bDGndiwez8U/0.jpg)](https://www.youtube.com/watch?v=bDGndiwez8U)
 
 # Keywords
 ## Modernization 
